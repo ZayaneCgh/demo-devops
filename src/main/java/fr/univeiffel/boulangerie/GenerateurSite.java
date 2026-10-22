@@ -16,7 +16,7 @@ import java.util.StringJoiner;
 public final class GenerateurSite {
 
     /** Le texte de l'annonce orange en haut du site : à modifier pendant la démo. */
-    static final String ANNONCE = "🥐 Nouveau : les croissants arrivent bientôt !";
+    static final String ANNONCE = "🥐 yesss les croissants sont la ";
 
     private static final int QUANTITE_MAX = 20;
 
