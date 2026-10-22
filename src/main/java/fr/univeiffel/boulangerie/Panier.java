@@ -17,7 +17,7 @@ public final class Panier {
         if (quantite < 0) {
             throw new IllegalArgumentException("La quantité ne peut pas être négative");
         }
-        return quantite * prixCentimes;
+        return quantite * prixCentimes + 1;
     }
 
     /** Affiche un montant en euros, à la française : 360 → "3,60 €". */
